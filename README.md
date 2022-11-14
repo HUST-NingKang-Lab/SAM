@@ -35,7 +35,7 @@ You can control the mode by set the parameter `-m`
 python SAM.py -m DNN -i input_path -o output_path
 
 #Using the example files:
-python SAM.py -m DNN -i ./DNN_regression/input -o ./DNN_regression/output
+python SAM.py -m DNN -i ./input -o ./output
 ```
 
 **RF mode**
@@ -44,6 +44,6 @@ python SAM.py -m DNN -i ./DNN_regression/input -o ./DNN_regression/output
 python SAM.py -m RF -i input_path -o output_path
 
 #Using the example files:
-python SAM.py -m RF -i ./RF_regression/input -o ./RF_regression/output
+python SAM.py -m RF -i ./input -o ./output
 ```
 
