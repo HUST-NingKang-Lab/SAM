@@ -32,18 +32,12 @@ You can control the mode by set the parameter `-m`
 **DNN mode**
 
 ```shell
-python SAM.py -m DNN -i input_path -o output_path
-
-#Using the example files:
 python SAM.py -m DNN -i ./input -o ./output
 ```
 
 **RF mode**
 
 ```shell
-python SAM.py -m RF -i input_path -o output_path
-
-#Using the example files:
 python SAM.py -m RF -i ./input -o ./output
 ```
 
