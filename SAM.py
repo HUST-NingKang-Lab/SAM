@@ -11,8 +11,8 @@ class sam:
 
     def __init__(self, input_path, output_path):
         self.input_path = os.path.abspath(input_path)
-        self.phenotype_data = os.path.join(self.input_path, "phenotype_data.txt")
-        self.microbiota_data = os.path.join(self.input_path, "microbiota_data.txt")
+        self.phenotype_data = os.path.join(self.input_path, "example_phenotype_data.txt")
+        self.microbiota_data = os.path.join(self.input_path, "example_microbiota_data.txt")
 
         self.output_path = os.path.abspath(output_path)
 
